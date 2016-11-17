@@ -1,0 +1,21 @@
+programaExercici15
+	x: enter
+		
+	x=0;
+	
+	x=LlegirPantalla();
+	if(x>0)
+	 { imprimirPantalla("és positiu");
+	   }
+	else
+	 { if(x==0) {
+	   imprimirPantalla("és neutre");
+		}
+
+		else {
+		 imprimirPantalla("és negatiu");
+		   }
+		}
+	}
+}
+fprogramaExercici15

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class exercici31prova {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String J1, J2;
+		
+	
+		Scanner entrada;
+		entrada = new Scanner(System.in);
+		
+		System.out.println("J1, que vols, pedra, paper o tissora?");
+		J2 = entrada.next();
+		System.out.println("J2 que vols, pedra, paper o tissora?");
+		J1= entrada.next();
+		
+		if (J2.equalsIgnoreCase("paper") && J1.equalsIgnoreCase("paper")) {
+			System.out.println("Hi ha un empat");
+		}
+	}
+
+}

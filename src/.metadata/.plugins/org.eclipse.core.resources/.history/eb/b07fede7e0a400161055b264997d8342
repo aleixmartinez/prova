@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class exercici30 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char lletra=' ';
+		//Definim Entrada del tipus Scanner per poder llegir
+		Scanner entrada;
+		//Iniciem les variables
+		entrada = new Scanner(System.in);	
+		lletra=' ';
+		//Bloc de codi principal
+		System.out.println("Introdueix un caracter:");
+		lletra=entrada.next().charAt(0);
+		
+		if (Character.isLetter(lletra)) {
+			
+			if (Character.isUpperCase(lletra))
+			{ 		System.out.println("La lletra és Majuscula");
+			}
+			if (Character.isLowerCase(lletra))
+			{ 		System.out.println("La lletra és Minuscula");
+			}
+		
+		}
+		
+		else 
+		{ 	System.out.println("ERROR");
+		}
+		
+	}	
+}	
+		

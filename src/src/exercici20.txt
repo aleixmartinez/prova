@@ -1,0 +1,38 @@
+programaExercici2
+
+		x: enter
+		y: enter
+		z: enter
+		p: enter
+	
+		x=0;
+		y=0;
+		z=0;
+		p=0;
+	
+		ImprimirPantalla("Entra la X:");
+		x=LlegirPantalla();
+		ImprimirPantalla("Entra la Y:");
+		y=LlegirPantalla();
+		ImprimirPantalla("Entra la Z:");
+		z=LlegirPantalla();
+		ImprimirPantalla("Entra la P:");
+		p=LlegirPantalla();
+		if((x<z)||(x<y))
+			{ ImprimirPantalla("X és la més petita");
+			}
+		else
+			{ if((y<x)==(y<z)) {
+				ImprimirPantalla("Y és la més petita");
+				}
+
+				else {
+					 ImprimirPantalla("Z és la més petita");
+					
+				}
+			
+		
+		
+			}
+		}
+}

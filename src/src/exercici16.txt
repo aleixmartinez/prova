@@ -1,0 +1,24 @@
+programaExercici16
+	x: enter
+	y: enter
+	
+	x=0;
+	y=0;
+
+	x=LlegirPantalla();
+	y=LlegirPantalla();
+	if(x>y)
+	 { imprimirPantalla("El nombre més gran és" + x");
+	   }
+	else
+	 { if(x==0) {
+	   imprimirPantalla("Són iguals");
+		}
+
+		else {
+		 imprimirPantalla("El nombre més gran és" + y");
+		   }
+		}
+	}
+}
+fprogramaExercici16

@@ -1,0 +1,31 @@
+programaExercici18
+	x: enter
+	y: enter
+	z: enter
+	p: enter
+	
+	x=0;
+	y=0;
+	z=0;
+	p=0;
+	
+	x=LlegirPantalla();
+	y=LlegirPantalla();
+	z=LlegirPantalla();
+	p=LlegirPantalla();
+
+	if((x+y)>(z+p))
+	 { imprimirPantalla("la suma dels dos primers és més gran que la suma dels dos ultims numeros");
+	   }
+	else
+	 { if((x+y)==(z+p)) {
+	   imprimirPantalla("la suma dels dos primers és igual que la suma dels dos ultims numeros");
+		}
+
+		else {
+		 imprimirPantalla("la suma dels dos primers és més petit que la suma dels dos ultims numeros");
+		   }
+		}
+	}
+}
+fprogramaExercici18

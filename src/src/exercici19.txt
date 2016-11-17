@@ -1,0 +1,39 @@
+programaExercici19
+		
+		enter x, y, z;
+
+		x: enter
+		y: enter
+		z: enter
+	
+		x=0;
+		y=0;
+		z=0;
+	
+		ImprimirPantalla("Entra la X:");
+		x=LlegirPantalla();
+		ImprimirPantalla("Entra la Y:");
+		y=LlegirPantalla();
+		ImprimirPantalla("Entra la Z:");
+		z=LlegirPantalla();
+
+		if((x<z)&&(x<y)&&(x<p))
+			{ ImprimirPantalla("X és la més petita");
+			}
+		else
+			{ if((y<x)&&(y<z)&&(y<p)) {
+				ImprimirPantalla("Y és la més petita");
+				}
+
+				else { if((z<x)&&(z<y)&&(z<p)) {
+					 ImprimirPantalla("Z és la més petita");
+					
+				}
+					else { 
+					 ImprimirPantalla("P és la més petita");
+		
+					}
+			}
+		}
+	}
+}
